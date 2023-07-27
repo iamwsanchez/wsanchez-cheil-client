@@ -11,3 +11,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.app-title {
+  font-size: larger;
+  font-weight:bolder;
+}
+.app-title i {
+  margin-left: 1rem;
+}
