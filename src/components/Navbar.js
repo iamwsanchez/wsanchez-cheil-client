@@ -19,9 +19,6 @@ class Navbar extends Component{
             M.Sidenav.init(elems);
         })
     }
-    logout(){
-        sessionStorage.removeItem('token');
-    }
     render(){
         return(
             <header>
