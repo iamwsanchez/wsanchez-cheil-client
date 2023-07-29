@@ -16,9 +16,6 @@ class Grapher extends Component {
     componentDidMount(){
         this.plotGraph();
     }
-    shouldComponentUpdate(nextProps, nextState) {
-        return (nextProps.audio !== this.props.audio);
-    }
     componentDidUpdate() {
         
     }

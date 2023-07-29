@@ -18,3 +18,15 @@ code {
 .app-title i {
   margin-left: 1rem;
 }
+
+.table-container-h {
+  width: 74em;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.table-container-v {
+  height: 30em;
+  overflow-y: auto;
+  white-space: nowrap;
+}

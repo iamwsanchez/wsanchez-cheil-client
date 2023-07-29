@@ -2,7 +2,9 @@ import httpCommon from "./http-common";
 
 const CarsService = {
     getAll() {
-        return httpCommon.get("/cars/readAll");
+        let cars = httpCommon.get("/cars/readAll")
+        console.log("cars: ", cars)
+        return cars;
     }
 };
 
