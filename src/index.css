@@ -30,3 +30,7 @@ code {
   overflow-y: auto;
   white-space: nowrap;
 }
+
+.mt-20 {
+  margin-top: 20px;
+}

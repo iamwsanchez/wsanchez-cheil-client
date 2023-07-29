@@ -5,7 +5,7 @@ import CarsService from '../services/cars-service'
 
 echarts.use([SVGRenderer, CanvasRenderer]);
 
-class Grapher extends Component {
+class Chart extends Component {
     constructor(props){
         super(props)
         this.plotGraph = this.plotGraph.bind(this);
@@ -73,4 +73,4 @@ class Grapher extends Component {
     }
 }
 
-export default Grapher;
+export default Chart;

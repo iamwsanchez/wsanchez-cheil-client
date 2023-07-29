@@ -10,7 +10,6 @@ export const Home = () => {
         setLoading(true)
         VehicleService.getVehicleStd()
             .then(({ data }) => {
-              console.log("datastd: ", data)
               setDataStd(data)
             })
             .catch(err => console.dir(err))
@@ -20,7 +19,6 @@ export const Home = () => {
           setLoading(true) 
           VehicleService.getVehicleMean()
             .then(({ data }) => {
-              console.log("datamean: ", data)
               setDataMean(data)
             })
             .catch(err => console.dir(err))
@@ -31,7 +29,7 @@ export const Home = () => {
         <div className='table-container-h'>
           <table className="highlight responsive-table">
             <thead>
-              <tr><th colSpan={19}><h4><b>Desviación Estandar</b></h4> {loading && "Cargando..."}</th></tr>
+              <tr><th colSpan={19}><h5><b>Desviación Estandar</b></h5> {loading && "Cargando..."}</th></tr>
               <tr>
                 <th>class</th>
                 <th>compactness</th>
@@ -87,7 +85,7 @@ export const Home = () => {
         <div className='table-container-h'>
           <table className="highlight responsive-table">
             <thead>
-              <tr><th colSpan={19}><h4><b>Promedio</b></h4> {loading && "Cargando..."}</th></tr>
+              <tr><th colSpan={19}><h5><b>Promedio</b></h5> {loading && "Cargando..."}</th></tr>
               <tr>
                 <th>class</th>
                 <th>compactness</th>

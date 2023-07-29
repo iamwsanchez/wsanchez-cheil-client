@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router";
 import Navbar from "./components/Navbar";
 import { Home } from "./pages/Home";
 import { Cars } from "./pages/Cars";
-import Grapher from "./pages/Grapher";
+
 import Login from "./pages/Login";
 import Logout from "./pages/Logout";
 
@@ -31,7 +31,7 @@ function App() {
           <Routes>
             <Route exact path="/" element ={<Home/>}/>
             <Route path="/Cars" element ={<Cars/>}/>
-            <Route path="/Grapher" element ={<Grapher/>}/>
+
             <Route path="/Login" element ={<Login/>}/>
             <Route path="/Logout" element ={<Logout/>}/>            
           </Routes>

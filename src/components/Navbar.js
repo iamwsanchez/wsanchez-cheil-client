@@ -27,16 +27,16 @@ class Navbar extends Component{
                         <Link to="/" className='app-title'><i className="material-icons left">home</i>WS App</Link>
                         <a href="#!" data-target="mobile-nav" className="sidenav-trigger"><i className="material-icons">menu</i></a>
                         <ul className="right hide-on-med-and-down">
+                        <li><Link to="/"><i className="material-icons left">insert_chart</i>Gráficos</Link></li>
                             <li><Link to="/Cars"><i className="material-icons left">directions_car</i>Cars</Link></li>
-                            <li><Link to="/Grapher"><i className="material-icons left">insert_chart</i>Gráfico</Link></li>
                             <li><Link to="/Logout"><i className="material-icons left">exit_to_app</i>Cerrar sesión</Link></li>
                         </ul>
                     </div>
                 </nav>
                 <ul id="mobile-nav" className="sidenav">
                     <li><Link to="/"><i className="material-icons left">home</i>Inicio</Link></li>
+                    <li><Link to="/"><i className="material-icons left">insert_chart</i>Gráficos</Link></li>
                     <li><Link to="/Cars"><i className="material-icons left">directions_car</i>Cars</Link></li>
-                    <li><Link to="/Grapher"><i className="material-icons left">insert_chart</i>Gráfico</Link></li>
                     <li><Link to="/Logout"><i className="material-icons left">exit_to_app</i>Cerrar sesión</Link></li>
                 </ul>                    
             </header>
