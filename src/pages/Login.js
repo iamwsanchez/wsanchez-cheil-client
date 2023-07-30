@@ -32,7 +32,7 @@ class Login extends Component{
           LoginService.login(data).then(({ data }) => {
                 console.log(JSON.stringify(data));
                 sessionStorage.setItem('token', JSON.stringify(data));
-                window.location.href="/home";
+                window.location.href="/";
           })
           .catch(err => console.dir(err))
           .finally(() => console.log("Login ejecutado"))

@@ -16,7 +16,6 @@ export const Cars = () => {
     }, [])
 
     return (  
-      <>
         <div className='row mt-20'>
             <div className='col s6'>
               <div className='table-container-v'>
@@ -61,7 +60,6 @@ export const Cars = () => {
             <div className='col s6'>
               <Chart/>
             </div>
-        </div>  
-      </>
+        </div>
     )
 }
